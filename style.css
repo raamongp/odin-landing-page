@@ -4,6 +4,7 @@
   --white-color: #faf9f8;
   --blue-color: #3882f6;
   --dark-grey-color: #727579;
+  --blue-color-light-opacity: #5e9cff;
 }
 
 body {
@@ -76,6 +77,10 @@ a {
   border: none;
   border-radius: 5px;
   padding: 4px 20px;
+}
+
+.hero-left-side button:hover {
+  background-color: var(--blue-color-light-opacity);
 }
 
 .hero-right-side {
@@ -199,6 +204,10 @@ a {
   font-size: 16px;
   font-weight: 700;
   padding: 4px 28px;
+}
+
+.action-button-container button:hover {
+  background-color: var(--blue-color-light-opacity);
 }
 
 /*  Foorter Section*/
