@@ -1,0 +1,40 @@
+/** Variables */
+:root {
+  --dark-blue: #1f2937;
+  --light-blue: #3882f6;
+  --white: #f9faf8;
+  --light-grey: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+/** Header Section */
+header {
+  padding: 0 400px;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.header_links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header_links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--light-grey);
+}
