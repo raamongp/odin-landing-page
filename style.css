@@ -95,12 +95,12 @@ header {
 .info_title {
   font-size: 36px;
   font-weight: 900;
-  color: var(--dark-blue);
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   margin-bottom: 40px;
+  color: var(--dark-blue);
 }
 
 .info_cards_container {
@@ -129,4 +129,26 @@ header {
   width: 150px;
   margin-top: 10px;
   color: var(--dark-blue);
+}
+
+/** Quote Section */
+.quote_container {
+  padding: 80px 350px 50px;
+  background-color: var(--light-grey);
+}
+
+.quote {
+  padding: 0 180px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+  color: var(--dark-blue);
+}
+
+.quote_author {
+  padding: 0 180px;
+  text-align: end;
+  font-size: 24px;
+  font-weight: 500;
 }
