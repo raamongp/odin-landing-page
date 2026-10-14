@@ -5,6 +5,8 @@
   --white: #f9faf8;
   --light-grey: #e5e7eb;
   --dark-grey: #8d929d;
+  --hero-button-hover: #3881f667;
+  --banner-button-hover: #ffffff3f;
 }
 
 body {
@@ -87,6 +89,11 @@ header {
   font-weight: 700;
 }
 
+.hero_button:hover {
+  background-color: var(--hero-button-hover);
+  cursor: pointer;
+}
+
 /** Information Section */
 .info_container {
   padding: 50px 350px 80px;
@@ -144,11 +151,79 @@ header {
   font-style: italic;
   text-align: justify;
   color: var(--dark-blue);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .quote_author {
   padding: 0 180px;
-  text-align: end;
   font-size: 24px;
   font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: end;
+  justify-content: end;
+}
+
+/** Banner Section */
+.banner_container {
+  padding: 80px 300px;
+}
+
+.banner_content_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-blue);
+  padding: 30px 220px;
+  border-radius: 8px;
+}
+
+.banner_text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.banner_text_container p {
+  margin: 0;
+  color: var(--white);
+}
+
+.banner_title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.banner_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.banner_button {
+  background-color: #3882f6;
+  border: 2px solid var(--white);
+  border-radius: 6px;
+  padding: 4px 24px;
+  color: var(--white);
+  font-weight: 700;
+}
+.banner_button:hover {
+  background-color: var(--banner-button-hover);
+  cursor: pointer;
+}
+
+/** Quote Section */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  padding: 30px;
+  color: var(--white);
 }
